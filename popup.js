@@ -116,3 +116,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
+
+var dreListwithError = document.getElementsByClassName('data-list rules-list');
+dreListwithError[0].attributes[1].value = 1;
